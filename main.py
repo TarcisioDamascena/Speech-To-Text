@@ -1,4 +1,6 @@
 import speech_recognition as sr
+import os
+import autoClick
 
 r = sr.Recognizer()
 with sr.Microphone() as source:
